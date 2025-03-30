@@ -15,10 +15,10 @@ Given that, I thought this would be a slam dunk for modern AI, so I tested vario
 
 ### Results
 
-| <img src="/docs/Claude.png" width="300"> | <img src="/docs/Grok.png" width="300"> | <img src="/docs/ChatGPT.png" width="300"> |
-|:--:|:--:|:--:|
+| ![](/docs/Claude.png) | ![](/docs/Grok.png) | ![](/docs/ChatGPT.png) |
+|:-:|:--:|:--:|
 | _[Claude Sonnet 3.7](https://www.anthropic.com/claude/sonnet)_ | _[Grok 3](https://grok.com/)_ | _[ChatGPT 4o](https://chatgpt.com/)_ |
-| <img src="/docs/Gemini.png" width="300"> | <img src="/docs/Gemini-DeepResearch.png" width="300"> | <img src="/docs/Rhombicuboctahedron.gif" width="300"> |
+| ![](/docs/Gemini.png) | ![](/docs/Gemini-DeepResearch.png) | ![](/docs/Rhombicuboctahedron.gif) |
 | _[Gemini Flash 2.0](https://gemini.google/)_ | _[Gemini Deep Research](https://gemini.google/)_ | _[ChatGPT Deep Research](https://openai.com/index/introducing-gpt-4-5/)_ |
 
 ### Summary
@@ -56,16 +56,16 @@ Oustanding results after 26 minutes of research and a single follow up prompt to
 
 > [ChatGPT Deep Research Transcript](https://chatgpt.com/share/67e6f9a5-daa0-8007-9022-af811ec9d063)
 
-| <img src="/docs/ChatGPT-DeepResearch-t=0.png" width="300"> | <img src="/docs/ChatGPT-DeepResearch-t=0.5.png" width="300"> | <img src="/docs/ChatGPT-DeepResearch-t=1.png" width="300"> |
+| ![](/docs/ChatGPT-DeepResearch-t=0.png) | ![](/docs/ChatGPT-DeepResearch-t=0.5.png) | ![](/docs/ChatGPT-DeepResearch-t=1.png) |
 |:--:|:--:|:--:|
-| _t=0.0 (Cube)_ | _t=0.5 (Rhombicuboctahedron)_ | _t=1.0 (Regular Octahedron)_ |
+| _t=0.0_ | _t=0.5_ | _t=1.0_ |
 
 
 ## Hand Written Code
 
 I manually wrote code using the Unity ProBuilder API with the Bevel feature, which was exactly what I needed, but then I also wanted full control over the Normals and UVs, and it was never obvious to me when I should call [ProBuilderMesh.Refresh()](https://docs.unity3d.com/Packages/com.unity.probuilder@6.0/api/UnityEngine.ProBuilder.ProBuilderMesh.html#UnityEngine.ProBuilder.ProBuilderMesh.Refresh(UnityEngine.ProBuilder.RefreshMask)) and with what [RefreshMask](https://docs.unity3d.com/Packages/com.unity.probuilder@6.0/api/UnityEngine.ProBuilder.RefreshMask.html) to get it to **not** override my custom normals and UVs. This took a few days to create and debug.
 
-| <img src="/docs/ProBuilder%20Bevel.png" width="300"> |
+| ![](/docs/ProBuilder%20Bevel.png) |
 |:--:|
 | _[ProBuilder Bevel](https://docs.unity3d.com/Packages/com.unity.probuilder@6.0/manual/Edge_Bevel.html)_ |
 
@@ -74,9 +74,8 @@ I manually wrote code using the Unity ProBuilder API with the Bevel feature, whi
 
 The tests were performed during 19th-28th March 2025 using a paid subscription to Claude and ChatGPT, but not for Grok or Gemini.
 
-The [Rhombicuboctahedron.gif](/docs/Rhombicuboctahedron.gif) animated GIF file was created using the [Unity Screen Recorder](https://docs.unity3d.com/Packages/com.unity.recorder@5.1/manual/index.html) while setting the Game window resolution to `160x160` to match the orginal [Wikipedia Animated GIF](/docs/P2-A5-P3.gif).
-
-| ![Unity Screen Recorder GIF](/docs/Rhombicuboctahedron.gif) |
+The [Rhombicuboctahedron.gif](/docs/Rhombicuboctahedron.gif) animated GIF file was created using the [Unity Screen Recorder](https://docs.unity3d.com/Packages/com.unity.recorder@5.1/manual/index.html).
+| ![Unity Screen Recorder GIF](/docs/Rhombicuboctahedron-GitHubPreview.gif) |
 |:--:|
 | _[Unity Screen Recorder GIF](https://docs.unity3d.com/Packages/com.unity.recorder@5.1/manual/index.html)_ |
 
