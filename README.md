@@ -23,14 +23,14 @@ Given that, I thought this would be a slam dunk for modern AI, so I tested vario
 
 ### Summary
 
-| Provider | Model | Result |
-|:--:|--|--|
-| Anthropic | [Claude Sonnet 3.7](https://www.anthropic.com/claude/sonnet) | 18 prompt revisions were unable to results, face winding order was the main problem |
-| xAI | [Grok 3](https://grok.com/) | Good first attempt but prompt revisions didn't help |
-| OpenAI | [ChatGPT 4o](https://chatgpt.com/) | Poor start and prompt revisions didn't improve things |
-| Google | [Gemini Flash 2.0](https://gemini.google/) | Gemini was unable to generate any compilable code despite prompt revisions |
-| Google | [Gemini Deep Research](https://gemini.google/) | Look promising but the results were worse than others |
-| OpenAI | [ChatGPT Deep Research 4.5](https://openai.com/index/introducing-gpt-4-5/) | Almost perfect, one compile error on first try, single prompt revision and it just worked! |
+| Provider | Model | Score | Notes |
+|:--:|--|--:|--|
+| Anthropic | [Claude Sonnet 3.7](https://www.anthropic.com/claude/sonnet) | 40% | Close with faces and vertices but winding order was wrong |
+| xAI | [Grok 3](https://grok.com/) | 25% | Good first attempt but prompt revisions didn't help |
+| OpenAI | [ChatGPT 4o](https://chatgpt.com/) | 20% | Poor start and prompt revisions didn't improve things |
+| Google | [Gemini Flash 2.0](https://gemini.google/) | 0% | Unable to generate any compilable code |
+| Google | [Gemini Deep Research](https://gemini.google/) | 10% | Promising research document but poor results |
+| OpenAI | [ChatGPT Deep Research 4.5](https://openai.com/index/introducing-gpt-4-5/) | **95%** | Almost perfect, one compile error, **only working solution** |
 
 ### Gemini Flash 2.0
 
@@ -73,6 +73,8 @@ I manually wrote code using the Unity ProBuilder API with the Bevel feature, whi
 ## Notes
 
 The tests were performed during 19th-28th March 2025 using a paid subscription to Claude and ChatGPT, but not for Grok or Gemini.
+
+The scoring system is my personal opionion on the experience and the results produced by each AI model.
 
 The [Rhombicuboctahedron.gif](/docs/Rhombicuboctahedron.gif) animated GIF file was created using the [Unity Screen Recorder](https://docs.unity3d.com/Packages/com.unity.recorder@5.1/manual/index.html).
 | ![Unity Screen Recorder GIF](/docs/Rhombicuboctahedron-GitHubPreview.gif) |
