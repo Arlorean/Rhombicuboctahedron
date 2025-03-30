@@ -1,10 +1,10 @@
 # Rhombicuboctahedron
 
-[ChatGPT 4.5 Deep Research](https://openai.com/index/introducing-deep-research/) generated [Rhombicuboctahedron](https://en.wikipedia.org/wiki/Rhombicuboctahedron) parametric mesh for Unity.
+[ChatGPT 4.5 Deep Research](https://openai.com/index/introducing-deep-research/) generated Unity C# code to create a parametric [Rhombicuboctahedron](https://en.wikipedia.org/wiki/Rhombicuboctahedron) mesh.
 
 | ![Unity Screen Recording of Rhombicuboctahedron Parametric Mesh](/docs/Rhombicuboctahedron.gif) |  ![Wikipedia Rhombicuboctahedron Animated GIF](/docs/P2-A5-P3.gif) |
 |:--:|:--:|
-| _[ChatGPT 4.5 Deep Research](https://docs.unity3d.com/Packages/com.unity.recorder@5.1/manual/index.html)_ | _[Wikipedia Animation](https://en.wikipedia.org/wiki/Rhombicuboctahedron)_ |
+| _[Unity Animation](https://docs.unity3d.com/Packages/com.unity.recorder@5.1/manual/index.html)_ | _[Wikipedia Animation](https://en.wikipedia.org/wiki/Rhombicuboctahedron)_ |
 
 ## AI Generated Code
 
@@ -18,7 +18,7 @@ Given that, I thought this would be a slam dunk for modern AI, so I tested vario
 | ![](/docs/Claude.png) | ![](/docs/Grok.png) | ![](/docs/ChatGPT.png) |
 |:-:|:--:|:--:|
 | _[Claude Sonnet 3.7](https://www.anthropic.com/claude/sonnet)_ | _[Grok 3](https://grok.com/)_ | _[ChatGPT 4o](https://chatgpt.com/)_ |
-| ![](/docs/Gemini.png) | ![](/docs/Gemini-DeepResearch.png) | ![](/docs/Rhombicuboctahedron.gif) |
+| ![](/docs/Gemini.png) | ![](/docs/Gemini-DeepResearch.png) | ![](/docs/Rhombicuboctahedron-320x320.gif) |
 | _[Gemini Flash 2.0](https://gemini.google/)_ | _[Gemini Deep Research](https://gemini.google/)_ | _[ChatGPT Deep Research](https://openai.com/index/introducing-gpt-4-5/)_ |
 
 ### Summary
@@ -58,7 +58,7 @@ Oustanding results after 26 minutes of research and a single follow up prompt to
 
 | ![](/docs/ChatGPT-DeepResearch-t=0.png) | ![](/docs/ChatGPT-DeepResearch-t=0.5.png) | ![](/docs/ChatGPT-DeepResearch-t=1.png) |
 |:--:|:--:|:--:|
-| _t=0.0_ | _t=0.5_ | _t=1.0_ |
+| _t=0.0 (Cube)_ | _t=0.5 (Rhombicuboctahedron)_ | _t=1.0 (Regular Octahedron)_ |
 
 
 ## Hand Written Code
