@@ -52,13 +52,13 @@ The code however was unable to generate anything close to a Rhombicuboctahedron 
 
 ### ChatGPT Deep Research 4.5
 
-Oustanding results after 26 minutes of research and a single follow up prompt to fix a small compile error. All values of 't' from 0.0 to 1.0 produced the expected results with perfect face vertex winding order, vertex normals and with another small prompt it successfully added verteex colors as shown in the Unity screen recording GIF. It also generated me a Unity 6.0 URP Lit shader in order to render the vertex colors that were written into the mesh.
+Oustanding results after 26 minutes of research and a single follow up prompt to fix a small compile error. All values of 't' from 0.0 (Cube) to 0.5 (Rhombicuboctahedron) to 1.0 (Regular Octahedron) produced the expected results with perfect face vertex winding order, vertex normals and with another small prompt it successfully added verteex colors as shown in the Unity screen recording GIF. It also generated me a Unity 6.0 URP Lit shader in order to render the vertex colors that were written into the mesh.
 
 > [ChatGPT Deep Research Transcript](https://chatgpt.com/share/67e6f9a5-daa0-8007-9022-af811ec9d063)
 
 | ![](/docs/ChatGPT-DeepResearch-t=0.png) | ![](/docs/ChatGPT-DeepResearch-t=0.5.png) | ![](/docs/ChatGPT-DeepResearch-t=1.png) |
 |:--:|:--:|:--:|
-| _t=0.0 (Cube)_ | _t=0.5 (Rhombicuboctahedron)_ | _t=1.0 (Regular Octahedron)_ |
+| _t=0.0_ | _t=0.5_ | _t=1.0_ |
 
 
 ## Hand Written Code
