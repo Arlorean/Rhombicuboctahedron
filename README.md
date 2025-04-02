@@ -11,7 +11,7 @@
 The [Rhombicuboctahedron](https://en.wikipedia.org/wiki/Rhombicuboctahedron) is well studied and is one of the [13 Archimedean Solids](https://en.wikipedia.org/wiki/Archimedean_solid).
 
 Given that, I thought this would be a slam dunk for modern AI, so I tested various AI models using this prompt:
-> _Can you create me a Unity MonoBehaviour C# script that will procedurally create a Rhombicuboctahedron mesh where there is a parameter t that varies between 0 and 1 with 0 being the Rhombicuboctahedron as a perfect cube and 1 being the Rhombicuboctahedron as a perfect octahdron. I will call a ContextMenu method in the editor to call the method to generate the mesh. The game object is guaranteed to have a MeshFilter, MeshRenderer on it already and there is no need for a collider._
+> _Can you create me a Unity MonoBehaviour C# script that will procedurally create a Rhombicuboctahedron mesh where there is a parameter t that varies between 0 and 1 with 0 being the Rhombicuboctahedron as a perfect cube and 1 being the Rhombicuboctahedron as a perfect octahedron. I will call a ContextMenu method in the editor to call the method to generate the mesh. The game object is guaranteed to have a MeshFilter, MeshRenderer on it already and there is no need for a collider._
 
 ### Results
 
@@ -30,7 +30,7 @@ Given that, I thought this would be a slam dunk for modern AI, so I tested vario
 | OpenAI | [ChatGPT 4o](https://chatgpt.com/) | 20% | Poor start and prompt revisions didn't improve things |
 | Google | [Gemini Flash 2.0](https://gemini.google/) | 0% | Unable to generate any compilable code |
 | Google | [Gemini Deep Research](https://gemini.google/) | 10% | Promising research document but poor results |
-| OpenAI | [ChatGPT Deep Research 4.5](https://openai.com/index/introducing-gpt-4-5/) | **95%** | Almost perfect, one compile error, **only working solution** |
+| OpenAI | [ChatGPT Deep Research](https://openai.com/index/introducing-gpt-4-5/) | **95%** | Almost perfect, one compile error, **only working solution** |
 
 ### Gemini Flash 2.0
 
@@ -44,11 +44,11 @@ ProceduralRhombicuboctahedron.GenerateMesh () (at Assets/Scripts/ProceduralRhomb
 
 ### Gemini Deep Research 
 
-The results returned a while later (10s of minutes, not sure exactly how long unfortunately) and it prepared a Google Document for me detailing all the sources and it's thoughts and suggestions, together with "working code". Overall the presentation was great:
+The results returned a while later (10s of minutes, not sure exactly how long unfortunately) and it prepared a Google Document for me detailing all the sources and its thoughts and suggestions, together with "working code". Overall the presentation was great:
 
 [Gemini Deep Research Transcript](https://docs.google.com/document/d/10nyRoulTEgFuvTiwIbM9txLCUbPuh6JCgWq644082Cw/edit?usp=sharing)
 
-The code however was unable to generate anything close to a Rhombicuboctahedron and at best it managed to generate 24 vertices, 12 inidices making 4 triangles. In other cases the results produced the same number of vertices and indices but the result degenerated to a line.
+The code however was unable to generate anything close to a Rhombicuboctahedron and at best it managed to generate 24 vertices, 12 indices making 4 triangles. In other cases the results produced the same number of vertices and indices but the result degenerated to a line.
 
 ### ChatGPT Deep Research 4.5
 
@@ -74,7 +74,7 @@ I manually wrote code using the Unity ProBuilder API with the Bevel feature, whi
 
 The tests were performed during 19th-28th March 2025 using a paid subscription to Claude and ChatGPT, but not for Grok or Gemini.
 
-The scoring system is my personal opionion on the experience and the results produced by each AI model.
+The scoring system is my personal opinion on the experience and the results produced by each AI model.
 
 The [Rhombicuboctahedron.gif](/docs/Rhombicuboctahedron.gif) animated GIF file was created using the [Unity Screen Recorder](https://docs.unity3d.com/Packages/com.unity.recorder@5.1/manual/index.html).
 | ![Unity Screen Recorder GIF](/docs/Rhombicuboctahedron-GitHubPreview.gif) |
